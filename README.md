@@ -1,5 +1,5 @@
 # Elastic Beanstalk com Cloudwatch para notificações
-
+s
 <br/>
 
 Antes do deploy crie uma **key pair em ssh** com o comando **ssh -i keygen -t rsa** e use o nome dessa keypair no arquivo tfvars. Além disso você terá que criar um **SNS Topic** pelo dashboard da aws para a notificação dos seus alarmes e um **Route53 Public Hosted Zone** para o domain. Eu utilizei um domain em meu nome para rodar a aplicação
